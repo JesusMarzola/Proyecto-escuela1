@@ -43,7 +43,7 @@
             </div>
 
             <div v-else-if="selectedTitle === 'Materias'">
-              🧮 En este apartado podrás ver las materias asignadas y sus horarios.
+              🧮 En este apartado podrás ver las materias asignadas y sus horarios de las clases de los alumnos de la institución educativa.
             </div>
 
             <div v-else-if="selectedTitle === 'Salir'">
