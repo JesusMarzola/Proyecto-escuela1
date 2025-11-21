@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "1234",
+      "email": "admin@gmail.com",
+      "nombre": "admin",
+      "rol": "admin",
+      "id": "ec39"
+    },
+    {
+      "id": "65ed",
+      "username": "juan",
+      "password": "12345",
+      "email": "juan@gmail.com",
+      "nombre": "juan",
+      "rol": "Alumno"
+    },
+    {
+      "id": "9ce0",
+      "username": "David",
+      "password": "12345",
+      "email": "david2@gmail.com",
+      "nombre": "david",
+      "rol": "Alumno"
+    },
+    {
+      "id": "c808",
+      "username": "Julian",
+      "password": "123456",
+      "email": "julian@gmail.com",
+      "nombre": "Julian",
+      "rol": "Alumno"
+    },
+    {
+      "id": "9c72"
+    },
+    {
+      "id": "3fa4",
+      "username": "migue",
+      "password": "1234567",
+      "email": "miguel@gmail.com",
+      "nombre": "Miguel",
+      "rol": "Alumno"
+    },
+    {
+      "id": "3a95",
+      "username": "manu",
+      "password": "12345678",
+      "email": "manuel@gmail.com",
+      "nombre": "Manuel",
+      "rol": "Docente"
+    },
+    {
+      "id": "6193",
+      "username": "LuisF",
+      "password": "1234567",
+      "email": "luis@gmail.com",
+      "nombre": "Luis Fernando",
+      "rol": "Alumno"
+    },
+    {
+      "id": "c0c0",
+      "username": "JoseOR",
+      "password": "0987654",
+      "email": "jose@gmail.com",
+      "nombre": "Jose Ortiz",
+      "rol": "Docente"
+    },
+    {
+      "id": "1583",
+      "username": "espantaminas 3000",
+      "password": "mañananohayclase",
+      "email": "pinchazotermia511@gmail.com",
+      "nombre": "spike ñero ",
+      "rol": "Alumno"
+    },
+    {
+      "id": "f5e2",
+      "username": "si_si",
+      "password": "sisisi",
+      "email": "si@correo.si",
+      "nombre": "si",
+      "rol": "Admin"
+    },
+    {
+      "id": "7646",
+      "username": "David",
+      "password": "123456",
+      "email": "davidh@gmail.com",
+      "nombre": "David",
+      "rol": "Docente"
+    },
+    {
+      "id": "a927",
+      "username": "Daniel",
+      "password": "1234567",
+      "email": "danielm@gmail.com",
+      "nombre": "Daniel",
+      "rol": "Secretaria"
+    },
+    {
+      "id": "3cd6",
+      "username": "Cristian",
+      "password": "12345678",
+      "email": "cristian@gmail.com",
+      "nombre": "Cristian",
+      "rol": "Secretaria"
+    },
+    {
+      "id": "fb57",
+      "username": "Martinez",
+      "password": "1234567",
+      "email": "martinez@gmail.com",
+      "nombre": "Martinez",
+      "rol": "Secretaria"
+    },
+    {
+      "id": "3b5d",
+      "username": "Concel",
+      "password": "1234567",
+      "email": "concel@gmail.com",
+      "nombre": "Concel",
+      "rol": "Alumno"
+    },
+    {
+      "id": "7411",
+      "username": "dfgd",
+      "password": "45646765",
+      "email": "fdgf@gmail.com",
+      "nombre": "dfg",
+      "rol": "Alumno"
+    },
+    {
+      "id": "7c69",
+      "username": "dgghg",
+      "password": "fghghgf",
+      "email": "p@gmail.com",
+      "nombre": "frg",
+      "rol": "Docente"
+    },
+    {
+      "id": "6028",
+      "username": "rrrrrr",
+      "password": "rrrrrrrrrr",
+      "email": "R@gmail.com",
+      "nombre": "rrrrrr",
+      "rol": "Secretaria"
+    }
+  ]
+}

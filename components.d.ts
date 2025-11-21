@@ -11,14 +11,15 @@ declare module 'vue' {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
     Carrusel_Compo: typeof import('./src/components/Carrusel_Compo.vue')['default']
     EscudoBandera: typeof import('./src/components/Escudo-bandera.vue')['default']
-    'Formulario estudiante': typeof import('./src/components/estudiante/formulario estudiante.vue')['default']
+    Formulario_estudiante: typeof import('./src/components/estudiante/formulario_estudiante.vue')['default']
     Header_Pagina: typeof import('./src/components/Header_Pagina.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     InstitucionalApp: typeof import('./src/components/InstitucionalApp.vue')['default']
-    Login_Apli: typeof import('./src/components/login/Login_Apli.vue')['default']
     LoginApp: typeof import('./src/components/LoginApp.vue')['default']
+    LoginApp2: typeof import('./src/components/login/LoginApp2.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Tabla_informacion: typeof import('./src/components/estudiante/tabla_informacion.vue')['default']
     Timeline: typeof import('./src/components/Timeline.vue')['default']
   }
 }

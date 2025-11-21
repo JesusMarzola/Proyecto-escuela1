@@ -34,11 +34,19 @@
     <!-- CONTENIDO PRINCIPAL -->
     <v-main class="pa-6" style="background-color: #F5F5F5;">
       <v-container>
-        <v-card class="pa-6" elevation="4" rounded="lg">
+        <v-card class="pa-6 mt-10" elevation="4" rounded="lg">
           <v-card-title class="text-h5 font-weight-bold">{{ selectedTitle }}</v-card-title>
           <v-divider class="mb-4"></v-divider>
           <v-card-text>
-            <div v-if="selectedTitle === 'Estudiantes'">
+            <div v-if="selectedTitle === 'Agregar usuario'">
+              <formulario_estudiante
+              @actualiza="cargar"></formulario_estudiante>
+              <tabla_informacion
+              
+              :usuarios="usuarios"></tabla_informacion>
+            </div>
+
+            <div v-else-if="selectedTitle === 'Estudiantes'">
               📚 Aquí podrás gestionar la lista de estudiantes, agregar o modificar información académica.
             </div>
 
@@ -61,20 +69,41 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import Timeline from '@/components/Timeline.vue'
+import tablaservice from "@/services/tablaservice";
+import { ref, onMounted } from 'vue'
+
 
 const drawer = ref(true)
 const selectedTitle = ref('Inicio')
 
 const menuItems = [
+  { text: 'Agregar usuario'},
   { icon: 'mdi-account-group-outline', text: 'Estudiantes' },
   { icon: 'mdi-book-open-page-variant', text: 'Materias' },
   { icon: 'mdi-logout', text: 'Salir' },
 ]
 
+const usuarios = ref([]);
+
 function selectOption(option) {
   selectedTitle.value = option
 }
+
+const cargar = (async() => {
+   try {
+    alert('llamado')
+    const res = await tablaservice.getUsers();
+    usuarios.value = res.data;
+  } catch (error) {
+    console.error("Error cargando usuarios:", error);
+  }
+})
+
+onMounted(() => {
+   cargar()
+});
+
 </script>
 
 <style scoped>

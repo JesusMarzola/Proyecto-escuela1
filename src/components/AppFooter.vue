@@ -26,12 +26,14 @@
       &copy; 2016-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Vuetify, LLC</span>
       —
       <a
-        class="text-decoration-none on-surface"
+        class="text-decoration-none on-surface text-h6"
         href="https://vuetifyjs.com/about/licensing/"
         rel="noopener noreferrer"
         target="_blank"
       >
-        MIT License
+        creadores de la pagina: Jesús Daniel Marzola montes,
+                                Juan Diego Paternina y 
+                                Cristian Tapias Villaba
       </a>
     </div>
   </v-footer>
