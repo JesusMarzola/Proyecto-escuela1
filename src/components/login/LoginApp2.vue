@@ -77,9 +77,7 @@
                 
                 <div class="text-caption text-center text-medium-emphasis">
                   <div class="mb-2">Usuarios de prueba:</div>
-                  <div><strong>admin</strong> / admin123</div>
-                  <div><strong>user</strong> / user123</div>
-                  <div><strong>juan</strong> / juan123</div>
+                  <div><strong>admin</strong> / 1234</div>
                 </div>
               </v-card-text>
             </v-card> 
